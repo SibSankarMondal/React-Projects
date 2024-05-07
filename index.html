@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Projects</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .banner {
+        width: 100%;
+        height: 300px;
+        background-color: #FFDEE9;
+        background-image: linear-gradient(0deg, #e5e5e5 0%, #83c5be 100%);
+    }
+
+    .banner h1 {
+        color: #ee6c4d;
+        font-size: 50px;
+        padding-top: 100px;
+    }
+
+    .js-projects {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 70px 15px;
+    }
+
+    .box {
+        width: 47%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 40px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        padding-bottom: 30px;
+
+    }
+.box img:hover{
+    opacity: 0.6;
+  
+    transition: all 0.5s ease-in-out;
+
+}
+    .box a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+    .box a:hover{
+        color: orangered;
+    }
+
+    footer {
+        width: 100%;
+        height: 100px;
+        background-image: linear-gradient(0deg, #e5e5e5 0%, #83c5be 100%);
+        padding: 50px;
+    }
+
+    footer p {
+        margin: auto;
+        font-size: 14px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+
+    <div class="banner">
+        <h1>REACT PROJECTS</h1>
+    </div>
+    <div class="js-projects">
+
+
+        <div class="box">
+            <img src="./img/Pexel-clone.webp" alt="">
+            <a href="https://pexel-clones.netlify.app/" target="_blank">Pexel Clone</a>
+        </div>
+
+        <div class="box">
+            <img src="./img/Hotel-reservation.webp" alt="">
+            <a href="https://hotel-reservation-apps.netlify.app/" target="_blank">Hotel Reservation App</a>
+        </div>
+
+        <!-- <div class="box">
+            <img src="../Js Projects/img/Expense-Tracker.webp" alt="">
+            <a href="https://fitclub-workout.netlify.app/" target="_blank">Fitclub App</a>
+        </div> -->
+
+        
+
+    </div>
+
+    <footer>
+        <p>React Projects | 2024</p>
+    </footer>
+
+</body>
+
+</html>
